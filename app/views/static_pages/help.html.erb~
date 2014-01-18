@@ -1,0 +1,11 @@
+<% provide(:title, 'Help') %>
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>Pings|<%= yield(:title) %></title>
+	</head>
+	<body>
+		<h1>Pings</h1>
+		<p>This is the help page for the application</p>
+	</body>
+</html>
