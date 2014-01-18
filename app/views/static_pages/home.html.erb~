@@ -1,12 +1,15 @@
-<% provide(:title, 'Home') %>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Pings|<%= yield(:title) %></title>
-	</head>
-	<body>
-		<h1>Pings</h1>
-		<p>This is the homepage for the sample application</p>
-	</body>
-</html>
+<div class="center hero-unit">
+  <h1>Welcome to Buzz</h1>
+
+  <h2>
+    Always stay updated with the latest Buzz
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+
+
+
+
+	
 

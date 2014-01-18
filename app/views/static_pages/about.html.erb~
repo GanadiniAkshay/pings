@@ -1,11 +1,4 @@
-<% provide(:title, 'About') %>
-<!DOCTYPE html>
-<html>
-	<head>	
-		<title>Pings|<%= yield(:title) %></title>
-	</head>
-	<body>
-		<h1>Pings</h1>
-		<p>This is the about page for the application</p>
-	</body>
-</html>
+<% provide(:title, '|About') %>
+<h1>Pings</h1>
+<p>This is the about page for the application</p>
+	
