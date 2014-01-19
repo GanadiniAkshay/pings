@@ -24,5 +24,5 @@ def secure_token
   end
 end
 
-Pings::Application.config.secret_key_base = secure_token
+Buzz::Application.config.secret_key_base = secure_token
 

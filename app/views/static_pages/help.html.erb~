@@ -1,6 +1,6 @@
 <% provide(:title, '|Help') %>
-<h1>Pings</h1>
-<p>This is the help page for the application</p>
+<h1>Buzz</h1>
+<p>If you need any help, please send in a mail to mail@akshaykulkarni.info</p>
 	
 		
 	

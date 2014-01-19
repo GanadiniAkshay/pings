@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Pings::Application.load_tasks
+Buzz::Application.load_tasks

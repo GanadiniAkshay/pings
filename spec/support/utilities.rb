@@ -1,3 +1,4 @@
+include ApplicationHelper
 def full_title(page_title)
   base_title = "Buzz"
   if page_title.empty?

@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Pings::Application.config.session_store :cookie_store, key: '_pings_session'
+Buzz::Application.config.session_store :cookie_store, key: '_pings_session'
