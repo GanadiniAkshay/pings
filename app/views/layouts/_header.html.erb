@@ -3,7 +3,7 @@
     <div class="container">
       <%= link_to "Buzz", '/', id: "logo" %>
       <nav>
-        <ul class="nav pull-right">          
+        <ul class="nav pull-right">         
           <% if signed_in? %>
             <li><%= link_to "Home",    current_user %></li>
             <li><%= link_to "Users", users_path %></li>
